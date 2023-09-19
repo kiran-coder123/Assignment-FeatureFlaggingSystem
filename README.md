@@ -9,17 +9,17 @@ This project demonstrates a one-screen feature flagging app form implementation 
 ● Enter: Click enter button to see your nickname.
 ● Nickname along with Capitalize Letter. 
 
-
  **Screenshots**
-
  
+![Simulator Screenshot - iPhone 14 - 2023-09-19 at 18 51 54](https://github.com/kiran-coder123/Assignment-FeatureFlaggingSystem/assets/55736093/8ff607ec-8e78-4847-b1cc-71a16ac8a578)
+![Simulator Screenshot - iPhone 14 - 2023-09-19 at 18 50 51](https://github.com/kiran-coder123/Assignment-FeatureFlaggingSystem/assets/55736093/526626aa-649e-464d-8a5a-e64083bb250a)
+![Simulator Screenshot - iPhone 14 - 2023-09-19 at 18 49 59](https://github.com/kiran-coder123/Assignment-FeatureFlaggingSystem/assets/55736093/c6215222-ade0-41c3-8721-38be08da238c)
 
 **Requirements**
 
 iOS 12.0 or later
 Xcode 11 or later
 Swift 5
-
 
 **Installation**
 
