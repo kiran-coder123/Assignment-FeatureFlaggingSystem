@@ -16,6 +16,8 @@
 		92744E3C2AB8540C00794EA0 /* Feature_Flagging_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92744E3B2AB8540C00794EA0 /* Feature_Flagging_AppTests.swift */; };
 		92744E462AB8540C00794EA0 /* Feature_Flagging_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92744E452AB8540C00794EA0 /* Feature_Flagging_AppUITests.swift */; };
 		92744E482AB8540C00794EA0 /* Feature_Flagging_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92744E472AB8540C00794EA0 /* Feature_Flagging_AppUITestsLaunchTests.swift */; };
+		92CFC61A2AB9643200A12C74 /* FeatureFlagManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CFC6192AB9643200A12C74 /* FeatureFlagManager.swift */; };
+		92CFC61C2AB96BB000A12C74 /* Nicknames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CFC61B2AB96BB000A12C74 /* Nicknames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		92744E412AB8540C00794EA0 /* Feature_Flagging_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Feature_Flagging_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92744E452AB8540C00794EA0 /* Feature_Flagging_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature_Flagging_AppUITests.swift; sourceTree = "<group>"; };
 		92744E472AB8540C00794EA0 /* Feature_Flagging_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature_Flagging_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92CFC6192AB9643200A12C74 /* FeatureFlagManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlagManager.swift; sourceTree = "<group>"; };
+		92CFC61B2AB96BB000A12C74 /* Nicknames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nicknames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,10 @@
 		92744E232AB8540A00794EA0 /* Feature_Flagging_App */ = {
 			isa = PBXGroup;
 			children = (
-				92744E242AB8540A00794EA0 /* AppDelegate.swift */,
-				92744E262AB8540A00794EA0 /* SceneDelegate.swift */,
-				92744E282AB8540A00794EA0 /* ViewController.swift */,
-				92744E2A2AB8540A00794EA0 /* Main.storyboard */,
-				92744E2D2AB8540C00794EA0 /* Assets.xcassets */,
-				92744E2F2AB8540C00794EA0 /* LaunchScreen.storyboard */,
+				92CFC6202AB9C61F00A12C74 /* App Resources */,
+				92CFC61F2AB9C60300A12C74 /* Presenter */,
+				92CFC61E2AB9C5FC00A12C74 /* View */,
+				92CFC61D2AB9C5F500A12C74 /* Model */,
 				92744E322AB8540C00794EA0 /* Info.plist */,
 			);
 			path = Feature_Flagging_App;
@@ -125,6 +127,42 @@
 				92744E472AB8540C00794EA0 /* Feature_Flagging_AppUITestsLaunchTests.swift */,
 			);
 			path = Feature_Flagging_AppUITests;
+			sourceTree = "<group>";
+		};
+		92CFC61D2AB9C5F500A12C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CFC61B2AB96BB000A12C74 /* Nicknames.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92CFC61E2AB9C5FC00A12C74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92744E282AB8540A00794EA0 /* ViewController.swift */,
+				92744E2A2AB8540A00794EA0 /* Main.storyboard */,
+				92744E2F2AB8540C00794EA0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92CFC61F2AB9C60300A12C74 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				92CFC6192AB9643200A12C74 /* FeatureFlagManager.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		92CFC6202AB9C61F00A12C74 /* App Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92744E242AB8540A00794EA0 /* AppDelegate.swift */,
+				92744E262AB8540A00794EA0 /* SceneDelegate.swift */,
+				92744E2D2AB8540C00794EA0 /* Assets.xcassets */,
+			);
+			path = "App Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CFC61A2AB9643200A12C74 /* FeatureFlagManager.swift in Sources */,
+				92CFC61C2AB96BB000A12C74 /* Nicknames.swift in Sources */,
 				92744E292AB8540A00794EA0 /* ViewController.swift in Sources */,
 				92744E252AB8540A00794EA0 /* AppDelegate.swift in Sources */,
 				92744E272AB8540A00794EA0 /* SceneDelegate.swift in Sources */,

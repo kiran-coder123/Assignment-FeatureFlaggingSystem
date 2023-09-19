@@ -1,0 +1,62 @@
+//
+//  Nicknames.swift
+//  Feature_Flagging_App
+//
+//  Created by Neosoft on 19/09/23.
+//
+
+import Foundation
+let nicknames = [
+    "Aagaard Ally",
+    "Abadi Alex",
+    "Abbatiello Nicole Lyla",
+    "Abbott Bryce",
+    "Abella Daniela",
+    "Abraham Jacob",
+    "Acevedo Nicholas",
+    "Acevedo Zoe",
+    "Reily Micaela",
+    "Aschenbrenner Marie",
+    "Jenna Ashburn",
+    "Samantha Ashley",
+     "Michael Ashmore",
+     "Dusty Astorga",
+     "Kurt Gregory",
+    "Atwood Laci",
+    "Austin Marie",
+    "Stephanie Austin",
+    "Quentin Isaiah",
+    "Auxier Alen",
+     "James Avalos",
+    "Isabel Avent",
+    "Jr Wayne Larry",
+    "Aversa Matteo",
+    " Luca Aviles",
+    "Brandon Dorothy",
+    "Anna Babcock",
+    "Olivia Catherine",
+    "Baca Luke",
+    "Bacsik Danny",
+    "Bader Marie",
+    "Stephanie Baetzel",
+    "Makayla Baggett",
+    "Matthew Nolan",
+    "Baggett Matthew",
+    "Nolan Bagley",
+    "Krista Bahls",
+    "Ann Marcy",
+    "Bailey Aaron",
+    "Levi Bailey",
+    "Scottie Bailie",
+    "Emma Baker",
+    "Xavier Jayden",
+    "Baker Noelle",
+    "Ashley Baker",
+    "Azuara Alexis",
+    "Karl William",
+    "Ayers Will",
+    "Shining Ayerle",
+    "Kaylee Ayaan",
+    "Luna Marie",
+    "Zaida Avina"
+]
